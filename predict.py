@@ -4,7 +4,7 @@ import torch
 import os
 import cv2
 from model.unet_model import UNet
-
+# 推理代码，github代码二次提交
 if __name__ == "__main__":
     # 选择设备，有cuda用cuda，没有就用cpu
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
